@@ -194,6 +194,7 @@ header img {
     align-items: center;
     justify-content: flex-start;
     overflow: hidden;
+    flex-direction: column;
 }
 
 .banner h1{
@@ -207,6 +208,15 @@ header img {
     top:10%;
     text-align: center;
     margin: 0 auto;
+}
+
+.bnr-btn {
+    z-index: 100;
+    padding: 3rem;
+}
+
+.bnr-btn button {
+    display:block;
 }
 
 .bnr-video-wrap{
@@ -242,6 +252,16 @@ header img {
     margin: 5vw;
 }
 
+.short-abt img {
+    width: 80%;
+}
+
+.short-abt .left {
+    display:flex;
+    justify-content:center;
+    border-radius: 3rem;
+}
+
 .short-abt h2 {
     font-weight: 400;
     margin-bottom: 2rem;
@@ -254,11 +274,17 @@ header img {
 .short-abt-btn {
     background-color: #941218;
     color: white;
-    border-radius: 5px;
-    border: 1px solid #941218;
+    border-radius: 0.5rem;
+    border: 2.4px solid #941218;
     padding: 1rem 2rem;
     display: flex;
     margin: 0 auto;
+    transition-duration: 0.4s;
+}
+
+.short-abt-btn:hover {
+    background-color: #ffffff;
+    color: #941218;
 }
 
 
@@ -296,7 +322,7 @@ header img {
 
 .arrangements {
     border-radius: 1.3rem;
-    background-color: #FEF7DD;
+    background-color: #F5F1E1;
     padding: 0.5rem 0;
 }
 
@@ -510,7 +536,7 @@ ion-icon {
     }
 
     .banner {
-        padding: 210px 0;
+        padding: 280px 0;
     }
    
 
@@ -523,7 +549,7 @@ ion-icon {
 
 
     .banner {
-        padding: 210px 0;
+        padding: 350px 0;
     }
    
 
