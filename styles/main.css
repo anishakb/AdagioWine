@@ -11,7 +11,6 @@
 * {
     margin: 10;
     padding: 10; 
-    font-family: 'Josefin Sans', sans-serif;
 }
 
 /*
@@ -43,6 +42,15 @@ p {
 
 button {
     font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #941218;
 }
 
 /*
@@ -198,7 +206,7 @@ header img {
 }
 
 .banner h1{
-    font-family: 'Josefin Sans';
+
     font-size:38px;
     line-height:1;
     position:relative;
