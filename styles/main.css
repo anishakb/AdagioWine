@@ -22,6 +22,7 @@
 
 h1, h2, h3 {
     font-family: 'Cardo', serif;
+    color: black;
 }
 
 h2 {
@@ -29,17 +30,19 @@ h2 {
     font-size: 30px;
     line-height: 1.45;
     margin: 100px 0 10px;
-    color: #733236;
 }
 
 h3 {
     text-align: center;
-    color: #ce9074;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.4;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*
@@ -239,6 +242,24 @@ header img {
     margin: 5vw;
 }
 
+.short-abt h2 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.short-abt p {
+    margin-bottom: 3rem;
+}
+
+.short-abt-btn {
+    background-color: #941218;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #941218;
+    padding: 1rem 2rem;
+    display: flex;
+    margin: 0 auto;
+}
 
 
 
@@ -272,9 +293,21 @@ header img {
 | Lightbox
 |------------------------------------------
 */
+
+.arrangements {
+    border-radius: 1.3rem;
+    background-color: #FEF7DD;
+    padding: 0.5rem 0;
+}
+
+.gallery {
+    margin: 0 3rem;
+}
+
 .gallery img {
     margin-bottom: 20px;
     margin-top: 60px;
+    border-radius: 3rem;
 }
 
 .gallery img {
@@ -289,12 +322,50 @@ header img {
 
 /*
 |------------------------------------------
+| Footer
+|------------------------------------------
+*/
+footer {
+    display: flex;
+    height: 7vh;
+    background-color: #570000;
+    align-items: center;
+    padding: 0 3vw;
+}
+
+footer p {
+    color: white;
+}
+
+.f-text p{
+    font-size: 1rem;
+}
+
+ion-icon {
+    color: white;
+    font-size: 64;
+}
+
+.icons {
+    display:flex;
+    /* float:right; */
+    justify-content: end;
+    flex: 1;
+    gap:1rem;
+
+}
+
+
+
+
+/*
+|------------------------------------------
 |Masonry
 |------------------------------------------
 */
-.grid-sizer, .grid-item {
+/* .grid-sizer, .grid-item {
     width:33.333%;
-}
+} */
 
 /*
 |------------------------------------------
@@ -302,7 +373,7 @@ header img {
 |------------------------------------------
 */
 
-.document {
+/* .document {
     margin: 10px 5px 15px 20px; 
 }
 
@@ -332,7 +403,7 @@ header img {
 
 .image-slider .img-4 {
     background-image: url(../images/rev_4.jpg);
-}
+} */
 
 
 
