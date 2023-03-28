@@ -39,8 +39,9 @@ header {
     will-change: top;
     transition: top .3s ease;
     z-index: 999;
-    background-color: #fff;
+    background-color: #570000;
     padding: 10px 15px;
+    color: #fff;
 }
 
 header.header-up {
@@ -137,7 +138,7 @@ header img {
     top: 100px;
     left:0;
     width: 100%;
-    background: #fff;
+    /* background: #fff; */
 }
 
 .gn li{
@@ -152,7 +153,7 @@ header img {
 
 .gn a {
     text-decoration: none;
-    color:  #733236;
+    color:  #ffffff;
     padding: 12px 25px;
     display: block;
 }
@@ -180,8 +181,10 @@ header img {
     position:relative;
     z-index:3;
     color:#e6e6e6;
-    left: 10%;
-    top:10%
+    /* left: 10%; */
+    top:10%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .bnr-video-wrap{
