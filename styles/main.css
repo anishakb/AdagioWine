@@ -245,6 +245,10 @@ header img {
     min-width: 100%;
 }
 
+.no-show {
+    display: none;
+}
+
 
 /*
 |------------------------------------------
@@ -258,6 +262,11 @@ header img {
 .column {
     flex: 50%;
     margin: 5vw;
+}
+
+.right p {
+    padding: 0 1rem;
+    font-size: 12px;
 }
 
 .short-abt img {
@@ -329,7 +338,7 @@ header img {
 */
 
 .arrangements {
-    border-radius: 1.3rem;
+    border-radius: 1.3rem 1.3rem 0 0;
     background-color: #F5F1E1;
     padding: 0.5rem 0;
 }
@@ -448,6 +457,52 @@ ion-icon {
 |------------------------------------------
 |------------------------------------------
 */
+@media only screen and (max-width: 410px) {
+    .banner {
+        /* padding: 47px; */
+        padding: 16vw;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .gn {
+        background: #570000;
+        top: 50px;
+    }
+    main {
+        margin-top: 29px;
+    }
+    .img-link img {
+        width: 30%;
+        height: auto;
+    }
+    .short-abt .left {
+        display: none;
+    }
+    .bnr-video-wrap video {
+        display: none;
+    }
+    .no-show {
+        display: block;
+        width: 100vw;
+        height: auto;
+    }
+    .bnr-btn {
+        display: none;
+    }
+    .short-abt {
+        margin-bottom: 29px;
+    }
+    .banner {
+        margin-top: 34px;
+        max-height: 100%;
+        overflow: unset;
+    }
+    .banner h1 {
+        text-align: left;
+    }
+}
+
 @media (min-width: 576px) {
 
     .banner {
