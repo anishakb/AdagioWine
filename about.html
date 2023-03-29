@@ -3,16 +3,18 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
-        <title>About Us - Adagio</title>
+        <title>About Us | Adagio Winery</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.css">
         <link rel="stylesheet" href="styles/reset.css">
-        <link rel="stylesheet" href="styles/flickity.css">
-        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="slick/slick.css">
+        <link rel="stylesheet" href="slick/slick-theme.css">
+        <link rel="stylesheet" href="styles/about.css">
     </head>
     <body>
+      <div class="theme-wrap">
     	<header>
             <div class="img-wrap">
         		<a class="img-link" href="#" title="Home page">
@@ -31,88 +33,58 @@
     	</header>
 		    <main class="main">
           <section class="banner">
-            <h1>Flower Subscriptions</h1>
+            <h1>ABOUT <br>US</h1>
             <div class="bnr-video-wrap">
-              <video class="bnr-video" autoplay muted loop>
+              <!-- <video class="bnr-video" autoplay muted loop>
               <source src="videos/flowers.mp4" type="video/mp4">
-              </video>
+              </video> -->
+              <img src="images/about-bnr.jpg" alt="about adagio winery banner image">
             </div>
           </section>
-          <section id="works">
-            <h2> How it works</h2>
-          </section>
-          <section class="columns">          
-            <div class="box">
-                <img src="images/intro_1.png" alt="vector image of flower arrangement">
-                <h3>Choose an arrangement</h3>
+          <section class="abt-history">
+            <div class="column left">
+              <img src="images/about-history.jpg" alt="about adagio winery history image">
             </div>
-            <div class="box">
-                <img src="images/intro_2.png" alt="vector image of calendar">
-                <h3>Choose a delivery date and time</h3>
-            </div>
-            <div class="box">
-                <img src="images/intro_4.png" alt="vector image of delivery truck">
-                <h3>Receive your arrangement</h3>
-            </div>        
-          </section>
-          <section id="arrangements">
-            <h2>Choose your flower arrangement</h2>
-          </section>
-          <section class="lightbox">
-            <div class="row">
-              <div class="gallery">
-                <a href="images/f_a.jpg">
-                  <img src="images/f_a.jpg" alt="flower arrangement"
-                    title = "Small flower arrangement"></a>
-                <a href="images/f_g.jpg">
-                  <img src="images/f_g.jpg" alt="flower arrangement"
-                    title = "Medium flower arrangement"></a>
-                <a href="images/f_c.jpg">
-                  <img src="images/f_c.jpg" alt="flower arrangement"
-                    title = "Large flower arrangement"></a>
-              </div>
+            <div class="column right">
+              <h2>Our History</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu pulvinar velit. Nullam hendrerit est sed quam aliquet pharetra. Curabitur ullamcorper arcu enim, in vulputate mi placerat sed. Ut hendrerit urna velit, non tempus tellus scelerisque a. Nullam vel sapien sollicitudin, malesuada turpis at, accumsan nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean nec ornare turpis. Donec non ultricies lectus, a aliquet tortor. Sed feugiat augue nec elementum interdum. Mauris eget elementum ipsum. Pellentesque</p>
+              <a href="mailto: hello@adagiowinery" title="Send Adagio Winery an email" target="_blank" class="short-abt-btn">Email</a>
             </div>
           </section>
-          <section id="gallery">
-            <h2>Flower gallery</h2>
-          </section>
-        <section>
-            <div class="row">
-              <div class="grid">
-                <div class="grid-sizer"></div>
-                <img class="grid-item" src="images/extra_1.jpg">
-                <img class="grid-item" src="images/extra_2.jpg">
-                <img class="grid-item" src="images/extra_3.jpg">
-                <img class="grid-item" src="images/extra_4.jpg">
-                <img class="grid-item" src="images/extra_5.jpg">
-                <img class="grid-item" src="images/extra_6.jpg">
-                <img class="grid-item" src="images/extra_7.jpg">
-                <img class="grid-item" src="images/extra_8.jpg">
-                <img class="grid-item" src="images/extra_9.jpg">
-                <img class="grid-item" src="images/extra_10.jpg">
-              </div>
+
+          <section class="image-slider">
+            <h2>Gallery</h2>
+            <div class="main-carousel">
+              <div><img class="cell-align" src="images/comic1.jpg" alt=""></div>
+              <div><img class="cell-align" src="images/comic2.jpg" alt=""></div>
+              <div><img class="cell-align" src="images/comic3.jpg" alt=""></div>
+              <div><img class="cell-align" src="images/comic4.jpg" alt=""></div>
+              <div><img class="cell-align" src="images/comic5.jpg" alt=""></div>
+              <div><img class="cell-align" src="images/comic6.jpg" alt=""></div>
+              <div><img class="cell-align" src="images/comic7.jpg" alt=""></div>
+              <div><img class="cell-align" src="images/comic8.jpg" alt=""></div>
             </div>
           </section>
-          <section id="reviews">
-            <h2>What our clients are saying about us</h2>
-          </section>
-          <main role="document">
-            <section class="main-carousel image-slider" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true }'>
-                    <div class="carousel-cell img-1 bg-centre"></div>
-                    <div class="carousel-cell img-2 bg-centre"></div>
-                    <div class="carousel-cell img-3 bg-centre"></div>
-                    <div class="carousel-cell img-4 bg-centre"></div>
-            </section>
+          <section class="section-three">
+            <div class="container">
+                <h2>Newsletter</h2>
+                <p>Stay in touch ! Sign Up For Our Newsletter. Keep up to date on the latest wine releases, news and promotions.</p>
+                <form action="#">
+                  <input class="input-field" type="text" id="fname" name="fname">
+                  <input class="input-abt-btn" type="submit" value="Submit">
+                </form> 
+                </p>
+            </div>
+        </section>
+          
+          
       </main>
       <footer>
-        <p>&copy; Karla Brambila 2020</p>
+        <p>&copy; Adagio 2023</p>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="scripts/scroll-lock.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.js"></script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-    <script src="scripts/main.js"></script>
-    <script src= "scripts/flickity.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="scripts/gallery.js"></script>
+   </div> 
 </body>
 </html>
