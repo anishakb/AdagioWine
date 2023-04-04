@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,500;0,700;1,600&display=swap');
+
+/* Fonts */
+
+/* font-family: 'Cardo', serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+
+
 * {
     margin: 10;
     padding: 10; 
-    font-family: 'Josefin Sans', sans-serif;
 }
 
 /*
@@ -10,17 +19,38 @@
 |------------------------------------------
 */
 
+h1, h2, h3 {
+    font-family: 'Cardo', serif;
+    color: black;
+}
+
 h2 {
     text-align: center;
     font-size: 30px;
     line-height: 1.45;
     margin: 100px 0 10px;
-    color: #733236;
 }
 
 h3 {
     text-align: center;
-    color: #ce9074;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #941218;
 }
 
 /*
@@ -39,8 +69,9 @@ header {
     will-change: top;
     transition: top .3s ease;
     z-index: 999;
-    background-color: #fff;
+    background-color: #570000;
     padding: 10px 15px;
+    color: #fff;
 }
 
 header.header-up {
@@ -137,7 +168,7 @@ header img {
     top: 100px;
     left:0;
     width: 100%;
-    background: #fff;
+    /* background: #fff; */
 }
 
 .gn li{
@@ -152,7 +183,7 @@ header img {
 
 .gn a {
     text-decoration: none;
-    color:  #733236;
+    color:  #ffffff;
     padding: 12px 25px;
     display: block;
 }
@@ -171,17 +202,29 @@ header img {
     align-items: center;
     justify-content: flex-start;
     overflow: hidden;
+    flex-direction: column;
 }
 
 .banner h1{
-    font-family: 'Josefin Sans';
+
     font-size:38px;
     line-height:1;
     position:relative;
     z-index:3;
     color:#e6e6e6;
-    left: 10%;
-    top:10%
+    /* left: 10%; */
+    top:10%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bnr-btn {
+    z-index: 100;
+    padding: 3rem;
+}
+
+.bnr-btn button {
+    display:block;
 }
 
 .bnr-video-wrap{
@@ -201,6 +244,67 @@ header img {
     min-height: 100%;
     min-width: 100%;
 }
+
+.no-show {
+    display: none;
+}
+
+
+/*
+|------------------------------------------
+|  Short About Section
+|------------------------------------------
+*/
+.short-abt {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    margin: 5vw;
+}
+
+.right p {
+    padding: 0 1rem;
+    font-size: 12px;
+}
+
+.short-abt img {
+    width: 80%;
+}
+
+.short-abt .left {
+    display:flex;
+    justify-content:center;
+    border-radius: 3rem;
+}
+
+.short-abt h2 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.short-abt p {
+    margin-bottom: 3rem;
+}
+
+.short-abt-btn {
+    background-color: #941218;
+    color: white;
+    border-radius: 0.5rem;
+    border: 2.4px solid #941218;
+    padding: 1rem 2rem;
+    display: flex;
+    margin: 0 auto;
+    transition-duration: 0.4s;
+}
+
+.short-abt-btn:hover {
+    background-color: #ffffff;
+    color: #941218;
+}
+
+
 
 /*
 |------------------------------------------
@@ -232,9 +336,21 @@ header img {
 | Lightbox
 |------------------------------------------
 */
+
+.arrangements {
+    border-radius: 1.3rem 1.3rem 0 0;
+    background-color: #F5F1E1;
+    padding: 0.5rem 0;
+}
+
+.gallery {
+    margin: 0 3rem;
+}
+
 .gallery img {
     margin-bottom: 20px;
     margin-top: 60px;
+    border-radius: 3rem;
 }
 
 .gallery img {
@@ -249,12 +365,50 @@ header img {
 
 /*
 |------------------------------------------
+| Footer
+|------------------------------------------
+*/
+footer {
+    display: flex;
+    height: 7vh;
+    background-color: #570000;
+    align-items: center;
+    padding: 0 3vw;
+}
+
+footer p {
+    color: white;
+}
+
+.f-text p{
+    font-size: 1rem;
+}
+
+ion-icon {
+    color: white;
+    font-size: 64;
+}
+
+.icons {
+    display:flex;
+    /* float:right; */
+    justify-content: end;
+    flex: 1;
+    gap:1rem;
+
+}
+
+
+
+
+/*
+|------------------------------------------
 |Masonry
 |------------------------------------------
 */
-.grid-sizer, .grid-item {
+/* .grid-sizer, .grid-item {
     width:33.333%;
-}
+} */
 
 /*
 |------------------------------------------
@@ -262,7 +416,7 @@ header img {
 |------------------------------------------
 */
 
-.document {
+/* .document {
     margin: 10px 5px 15px 20px; 
 }
 
@@ -292,7 +446,7 @@ header img {
 
 .image-slider .img-4 {
     background-image: url(../images/rev_4.jpg);
-}
+} */
 
 
 
@@ -303,6 +457,52 @@ header img {
 |------------------------------------------
 |------------------------------------------
 */
+@media only screen and (max-width: 410px) {
+    .banner {
+        /* padding: 47px; */
+        padding: 16vw;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .gn {
+        background: #570000;
+        top: 50px;
+    }
+    main {
+        margin-top: 29px;
+    }
+    .img-link img {
+        width: 30%;
+        height: auto;
+    }
+    .short-abt .left {
+        display: none;
+    }
+    .bnr-video-wrap video {
+        display: none;
+    }
+    .no-show {
+        display: block;
+        width: 100vw;
+        height: auto;
+    }
+    .bnr-btn {
+        display: none;
+    }
+    .short-abt {
+        margin-bottom: 29px;
+    }
+    .banner {
+        margin-top: 34px;
+        max-height: 100%;
+        overflow: unset;
+    }
+    .banner h1 {
+        text-align: left;
+    }
+}
+
 @media (min-width: 576px) {
 
     .banner {
@@ -399,7 +599,7 @@ header img {
     }
 
     .banner {
-        padding: 210px 0;
+        padding: 280px 0;
     }
    
 
@@ -412,7 +612,7 @@ header img {
 
 
     .banner {
-        padding: 210px 0;
+        padding: 350px 0;
     }
    
 

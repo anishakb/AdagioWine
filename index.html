@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
-        <title>Karla Brambila Final Project</title>
+        <title>Adagio Winery</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
     	<header>
             <div class="img-wrap">
         		<a class="img-link" href="#" title="Home page">
-                    <img src="images/logo.png" alt="Botany Logo">
+                    <img src="images/logowhite.png" alt="Adagio Logo">
                 </a>
             </div>
             <button class="gn-trigger">
@@ -24,58 +24,64 @@
             </button>
             <nav class="gn">
                 <ul class="gn-items">
-                    <li><a href="#works" title="works">How it works</a></li>
-                    <li><a href="#arrangements" title="Arrangements">Choose your arrangement</a></li>
-                    <li><a href="#gallery" title="Gallery">Flower gallery</a></li>
-                    <li><a href="#reviews" title="Reviews">Reviews</a></li>
+                    <li><a href="./index.html" title="Home">Home</a></li>
+                    <li><a href="./about.html" title="About">About</a></li>
                 </ul>
             </nav>
     	</header>
 		    <main class="main">
           <section class="banner">
-            <h1>Flower Subscriptions</h1>
+            <h1>Wine Redefined. Adagio.</h1>
+            <div class="bnr-btn">
+              <button class="short-abt-btn">Featured Wines</button>
+            </div>
             <div class="bnr-video-wrap">
               <video class="bnr-video" autoplay muted loop>
-              <source src="videos/flowers.mp4" type="video/mp4">
+              <source src="videos/banner-vid-bu.mp4" type="video/mp4">
               </video>
+              <img src="./images/0001.jpg" class="no-show">
             </div>
           </section>
-          <section id="works">
-            <h2> How it works</h2>
-          </section>
-          <section class="columns">          
-            <div class="box">
-                <img src="images/intro_1.png" alt="vector image of flower arrangement">
-                <h3>Choose an arrangement</h3>
+
+          <section class="short-abt">
+
+            <div class="column left">
+              <img class="left" src="./images/home-img.jpg">
             </div>
-            <div class="box">
-                <img src="images/intro_2.png" alt="vector image of calendar">
-                <h3>Choose a delivery date and time</h3>
+            <div class="column right">
+              <h2>About ADAGIO</h2>
+              <p>The wine made for food lovers. The wine made for connoisseurs. The wine made for those who know when to use what drink. The wine made for those who know that there is an Adagio for every occasion. Uncork the past with our wines, where every sip takes you on a timeless journey accompanied by the finest classical melodies. Let each sip bring you on an adventure, making Adagio a dynamic experience.</p>
+              
+              <a href="./about.html">
+
+              <button class="short-abt-btn">
+                
+                Learn more
+              </button>
+              </a>
             </div>
-            <div class="box">
-                <img src="images/intro_4.png" alt="vector image of delivery truck">
-                <h3>Receive your arrangement</h3>
-            </div>        
+
           </section>
-          <section id="arrangements">
-            <h2>Choose your flower arrangement</h2>
-          </section>
-          <section class="lightbox">
-            <div class="row">
-              <div class="gallery">
-                <a href="images/f_a.jpg">
-                  <img src="images/f_a.jpg" alt="flower arrangement"
-                    title = "Small flower arrangement"></a>
-                <a href="images/f_g.jpg">
-                  <img src="images/f_g.jpg" alt="flower arrangement"
-                    title = "Medium flower arrangement"></a>
-                <a href="images/f_c.jpg">
-                  <img src="images/f_c.jpg" alt="flower arrangement"
-                    title = "Large flower arrangement"></a>
+
+          <section class="arrangements">
+            <h2>Featured Wines</h2>
+            <div class="lightbox">
+              <div class="row">
+                <div class="gallery">
+                  <a href="images/lb-1.jpg">
+                    <img src="images/lb-1.jpg" alt="Chardonnay"
+                      title = "Chardonnay"></a>
+                  <a href="images/lb-2.jpg">
+                    <img src="images/lb-2.jpg" alt="Merlot"
+                      title = "Merlot"></a>
+                  <a href="images/lb-3.jpg">
+                    <img src="images/lb-3.jpg" alt="Pinot Noir"
+                      title = "Pinot Noir"></a>
+                </div>
               </div>
             </div>
           </section>
-          <section id="gallery">
+          <!-- <section id="gallery">
             <h2>Flower gallery</h2>
           </section>
         <section>
@@ -104,15 +110,33 @@
                     <div class="carousel-cell img-2 bg-centre"></div>
                     <div class="carousel-cell img-3 bg-centre"></div>
                     <div class="carousel-cell img-4 bg-centre"></div>
-            </section>
+            </section> -->
       </main>
       <footer>
-        <p>&copy; Karla Brambila 2020</p>
+        <div class="f-text">
+        <p>&copy; Adagio 2023</p>
+        </div>
+        <!-- <div class="icons">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </div> -->
+        <ul class="icons">
+          <li>
+            <ion-icon name="logo-facebook" size="large"></ion-icon>
+          </li>
+          <li>
+            <ion-icon name="logo-instagram" size="large"></ion-icon>
+          </li>
+          <li>
+            <ion-icon name="logo-twitter" size="large"></ion-icon>
+          </li>
+        </ul>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts/scroll-lock.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="scripts/main.js"></script>
     <script src= "scripts/flickity.js"></script>
     
