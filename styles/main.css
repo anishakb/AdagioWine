@@ -534,6 +534,7 @@ ion-icon {
 }
 
 @media (min-width: 768px) {
+    
 
     header img {
         height: 65px;
@@ -562,12 +563,34 @@ ion-icon {
         padding: 15px;
     }
 
+    .banner {
+        padding: 8.93rem 0;
+    }
+
     .gallery a {
         flex-basis: calc(33.33% - 10px);
         max-width: calc(33.33% - 10px);
     }
     .grid-sizer, .grid-item {
         width:25%;
+    }
+
+    .short-abt .left  {
+        width: 94%;
+        height: 90%;
+    }
+
+    .column {
+        margin: 5vw 0;
+    }
+
+    .column h2 {
+        margin: 0;
+    }
+
+    .column p {
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
     }
 
 }
