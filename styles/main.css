@@ -376,6 +376,7 @@ footer {
     padding: 0 3em;
     position: absolute;
     width: 100%;
+
 }
 
 footer p {
@@ -483,13 +484,17 @@ ion-icon {
 |------------------------------------------
 */
 
-.section-three {
+/* .section-three {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #F5F1E1;
     margin: 100px 0;
     height: 100%;
+} */
+
+.arrangements p {
+    text-align: center;
 }
 
 .container {
