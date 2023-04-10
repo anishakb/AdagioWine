@@ -370,10 +370,13 @@ header img {
 */
 footer {
     display: flex;
-    height: 7vh;
+    height: 27%;
     background-color: #570000;
     align-items: center;
-    padding: 0 3vw;
+    padding: 0 3em;
+    position: absolute;
+    width: 100%;
+
 }
 
 footer p {
@@ -400,6 +403,138 @@ ion-icon {
 
 
 
+
+/*
+|------------------------------------------
+|About Page CSS START - By Anisha
+|------------------------------------------
+*/
+
+.banner .abt-heading-one {
+    font-weight: 700;
+    font-size: 100px;
+    width: 5%;
+    top: -90px;
+    right: 560px;
+    line-height: 1.2;
+}
+
+.abt-history {
+    display: flex;
+}
+
+
+
+/*
+|------------------------------------------
+| Section 2 - History
+|------------------------------------------
+*/
+
+/* .short-abt-btn {
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #941218;
+    background-color: #941218;
+    border-radius: 10px;
+    padding: 1rem 5rem;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    position: relative;
+    top: 43px;
+    left: 205px;
+    width: 34%;
+    margin-top: 50px;
+  }
+  
+  .short-abt-btn:hover {
+    background-color: white;
+    color: #941218;
+  } */
+
+  /*
+|------------------------------------------
+| Section 3 - Gallery
+|------------------------------------------
+*/
+
+.theme-wrap {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.image-slider {
+    width: 100%;    
+    height: 100%;
+    padding: 0 100px;
+    margin-top: 50px;
+}
+
+.cell-align {
+    height: auto;
+    width: 100%;
+}
+
+
+/*
+|------------------------------------------
+| Section 4 - Newsletter
+|------------------------------------------
+*/
+
+/* .section-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F1E1;
+    margin: 100px 0;
+    height: 100%;
+} */
+
+.arrangements p {
+    text-align: center;
+}
+
+.container {
+    height: 100%
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input-field {
+    border: 1px solid #941218;
+    width: 220px;
+    height: 60px;
+}
+
+.input-abt-btn {
+    border: 2px solid #941218;
+    background-color: #941218;
+    padding: 1.2rem 5rem;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+  .input-abt-btn:hover {
+    background-color: white;
+    color: #941218;
+  }
+
+
+/*
+|------------------------------------------
+|About Page CSS END - By Anisha
+|------------------------------------------
+*/
 
 /*
 |------------------------------------------
@@ -548,6 +683,7 @@ ion-icon {
 }
 
 @media (min-width: 768px) {
+    
 
     header img {
         height: 65px;
@@ -576,12 +712,34 @@ ion-icon {
         padding: 15px;
     }
 
+    .banner {
+        padding: 8.93rem 0;
+    }
+
     .gallery a {
         flex-basis: calc(33.33% - 10px);
         max-width: calc(33.33% - 10px);
     }
     .grid-sizer, .grid-item {
         width:25%;
+    }
+
+    .short-abt .left  {
+        width: 94%;
+        height: 90%;
+    }
+
+    .column {
+        margin: 5vw 0;
+    }
+
+    .column h2 {
+        margin: 0;
+    }
+
+    .column p {
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
     }
 
 }
