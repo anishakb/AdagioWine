@@ -638,7 +638,7 @@ form {
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
 
     .banner {
         padding: 102px 0;
@@ -666,6 +666,20 @@ form {
         width: 60%;
 
     }
+
+    .short-abt .left {
+        display: none;
+    }
+
+    .banner {
+        margin-top: 2rem;
+    }
+
+    .banner h1{
+        font-weight: 400;
+    }
+
+
 }
 
 @media (min-width: 768px) {
