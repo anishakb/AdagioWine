@@ -205,6 +205,11 @@ header img {
     margin-left:100px;
 }
 
+h1 {
+    text-align: left;
+    margin-left:100px;
+}
+
 .bnr-video-wrap{
     position: absolute;
     top:10%;
@@ -467,9 +472,8 @@ form {
 
     }
 
-
-
 }
+
 
 @media (min-width: 768px) {
 
