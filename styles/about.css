@@ -355,6 +355,7 @@ form {
     color: #941218;
   }
 
+
 /*
 |------------------------------------------
 | Lightbox
@@ -435,6 +436,10 @@ form {
 @media (min-width: 10px) {
     .banner {
         bottom:1rem;
+    }
+
+    .bnr-video-wrap img {
+        width: 100%;
     }
 }
 
