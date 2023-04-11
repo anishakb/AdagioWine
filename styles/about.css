@@ -199,8 +199,10 @@ header img {
     z-index:3;
     color:#e6e6e6;
     top:10%;
-    text-align: flex-start;
+    text-align: left;
     margin: 0 auto;
+    margin-left:6.25rem;
+    margin-left:100px;
 }
 
 .bnr-video-wrap{
@@ -437,6 +439,7 @@ form {
     .banner {
         padding: 102px 0;
     }
+
     .bnr-video-wrap {
         top: 10%;
     }
@@ -463,6 +466,9 @@ form {
         width: 60%;
 
     }
+
+
+
 }
 
 @media (min-width: 768px) {
@@ -521,7 +527,9 @@ form {
     .banner h1 {
         font-size: 65px;
     }
+
 }
+
 
 @media (min-width: 1200px) {
 
