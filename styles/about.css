@@ -206,9 +206,8 @@ header img {
 .bnr-video-wrap{
     position: absolute;
     top:10%;
-    left: 0;
-    right: 0;
     bottom:0;
+    width: 100%;
 }
 
 .bnr-video{
@@ -432,6 +431,13 @@ form {
 |------------------------------------------
 |------------------------------------------
 */
+
+@media (min-width: 10px) {
+    .banner {
+        bottom:1rem;
+    }
+}
+
 @media (min-width: 576px) {
 
     .banner {
@@ -523,6 +529,8 @@ form {
     }
 }
 
+
+
 @media (min-width: 1200px) {
 
     .gn ul li:hover {
@@ -537,6 +545,12 @@ form {
 
     .banner h1 {
         font-size: 80px;
+    }
+}
+
+@media (min-width:1390px) {
+    .banner {
+        bottom:2rem;
     }
 }
 

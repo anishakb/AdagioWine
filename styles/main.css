@@ -657,6 +657,9 @@ form {
     .icons {
         gap: 1rem;
     }
+    .right p {
+        line-height:2;
+    }
 
 }
 
@@ -705,6 +708,14 @@ form {
         font-weight: 400;
     }
 
+    .right h2 {
+        margin: initial;
+    }
+    
+    .right p {
+        padding-top: 1rem;
+    }
+
     .column {
         margin: 4rem;
     }
@@ -744,6 +755,10 @@ form {
         max-width: calc(50% - 121px);
         margin-bottom: 25px;
     }
+
+    .right p {
+        font-size: 0.8rem;
+    
 }
 
 @media (min-width: 768px) {
@@ -910,3 +925,4 @@ form {
     }
 }
 
+}
