@@ -443,6 +443,17 @@ form {
     }
 }
 
+@media (min-width:403px) {
+    .column h2 {
+        margin: initial;
+    }
+
+    .column p {
+        line-height: 2;
+    }
+
+}
+
 @media (min-width: 576px) {
 
     .banner {
