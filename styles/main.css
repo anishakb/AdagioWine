@@ -638,6 +638,28 @@ form {
     }
 }
 
+@media (min-width: 320px) {
+    footer {
+        height: 10%;
+    }
+    .icons {
+        gap: initial;
+    }
+}
+
+@media (min-width: 410px) {
+    footer {
+        height: 13%;
+    }
+    .f-text p {
+        font-size: 1rem;
+    }
+    .icons {
+        gap: 1rem;
+    }
+
+}
+
 @media (min-width: 575px) {
 
     .banner {
@@ -686,6 +708,10 @@ form {
     .column {
         margin: 4rem;
     }
+    
+    footer {
+        height: 12%;
+    }
 
 }
 
@@ -695,6 +721,12 @@ form {
         flex-basis: calc(50% - 10px);
         max-width: calc(50% - 93px);
         margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 656px) {
+    .gallery a {
+        max-width: calc(50% - 106px);
     }
 }
 
@@ -721,7 +753,7 @@ form {
         height: 65px;
     }
 
-    .gn-trigger {
+    .gn-trigger { 
         display: none;
     }
 
@@ -760,6 +792,7 @@ form {
         display: block;
         width: 94%;
         height: 90%;
+        margin-left: 3%;
     }
 
     .column {
@@ -777,6 +810,10 @@ form {
 
     .gallery a {
         max-width: calc(50%-10px);
+    }
+
+    footer {
+        height: 10%;
     }
 
 }
@@ -819,8 +856,8 @@ form {
 
 
 @media (min-width: 1010px) {
-    p {
-        font-size: 13px;
+    .right p {
+        font-size: 14px;
     }
 }
 
@@ -848,6 +885,16 @@ form {
     footer {
         height: 12%;
     }
+}
+
+@media (min-width: 1300px) {
+
+    .right p {
+        line-height: 2;
+        margin-bottom: 5rem;
+        padding-top: 3rem;
+    }
+    
 }
 
 @media (min-width: 1440px) {
