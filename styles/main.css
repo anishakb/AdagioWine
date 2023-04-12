@@ -211,6 +211,19 @@ header img {
     position: relative;
     z-index: 3;
     color: #e6e6e6;
+    /* left: -30%; */
+    top: -120%;
+    text-align: center;
+    margin: 0 auto;
+    /* width: 20%; */
+}
+
+.about-heading{
+    font-size: 38px;
+    line-height: 1;
+    position: relative;
+    z-index: 3;
+    color: #e6e6e6;
     left: -30%;
     top: -120%;
     text-align: left;
@@ -575,10 +588,14 @@ form {
         /* padding: 47px; */
         padding: 16vw;
     }
-    .banner h1 {
+    .about-heading {
         text-align: left;
         left: -50%;
         top: 10%;
+    }
+    .banner h1 {
+        top: 30%;
+        
     }
 }
 
@@ -616,7 +633,7 @@ form {
         max-height: 100%;
         overflow: unset;
     }
-    .banner h1 {
+    .about-heading {
         text-align: left;
         left: -30%;
         top: 10%;
@@ -630,7 +647,7 @@ form {
     .icons {
         gap: initial;
     }
-    .banner h1 {
+    .about-heading{
         text-align: left;
         left: -30%;
         top: 10%;
@@ -650,7 +667,7 @@ form {
     .right p {
         line-height:2;
     }
-    .banner h1 {
+    .about-heading {
         text-align: left;
         left: -30%;
         top: 10%;
@@ -701,6 +718,8 @@ form {
 
     .banner h1{
         font-weight: 400;
+    }
+    .about-heading {
         text-align: left;
         left: -30%;
         top: 10%;
@@ -791,7 +810,7 @@ form {
     .banner {
         padding: 8.93rem 0;
     }
-    .banner h1 {
+    .about-heading {
         text-align: left;
         left: -30%;
         top: 10%;
