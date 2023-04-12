@@ -206,16 +206,15 @@ header img {
 }
 
 .banner h1{
-
-    font-size:38px;
-    line-height:1;
-    position:relative;
-    z-index:3;
-    color:#e6e6e6;
-    /* left: 10%; */
-    top:10%;
-    text-align: center;
-    margin: 0 auto;
+    font-size: 38px;
+    line-height: 1;
+    position: relative;
+    z-index: 3;
+    color: #e6e6e6;
+    left: -30%;
+    top: -120%;
+    text-align: left;
+    width: 20%;
 }
 
 .bnr-btn {
@@ -467,6 +466,7 @@ ion-icon {
     height: 100%;
     padding: 0 100px;
     margin-top: 50px;
+    margin-bottom: 80px;
 }
 
 .cell-align {
@@ -495,7 +495,9 @@ ion-icon {
 }
 
 .container {
-    height: 100%
+    height: 100%;
+    margin-bottom: 80px;
+
 }
 
 form {
@@ -526,60 +528,39 @@ form {
     color: #941218;
   }
 
+  /*
+|------------------------------------------
+|  Go to Top Button
+|------------------------ ------------------
+*/
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 200px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: 1px solid #941218; /* Remove borders */
+    /* box-shadow: 0px 2px 2px 0px rgb(38 75 78); */
+    outline: #941218; /* Remove outline */
+    width: 60px;
+    height: 60px;
+    background-color: #941218; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
 
 /*
 |------------------------------------------
 |About Page CSS END - By Anisha
 |------------------------------------------
 */
-
-/*
-|------------------------------------------
-|Masonry
-|------------------------------------------
-*/
-/* .grid-sizer, .grid-item {
-    width:33.333%;
-} */
-
-/*
-|------------------------------------------
-|Flickity
-|------------------------------------------
-*/
-
-/* .document {
-    margin: 10px 5px 15px 20px; 
-}
-
-.bg-centre {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-} 
-
-.image-slider .carousel-cell {
-    height: 370px;
-    width: 100%;
-}
-
-.image-slider .img-1 {
-    background-image: url(../images/rev_1.jpg);
-}
-
-.image-slider .img-2 {
-    background-image: url(../images/rev_2.jpg);
-}
-
-.image-slider .img-3 {
-    background-image: url(../images/rev_3.jpg);
-}
-
-.image-slider .img-4 {
-    background-image: url(../images/rev_4.jpg);
-} */
-
 
 
 /*
@@ -593,6 +574,11 @@ form {
     .banner {
         /* padding: 47px; */
         padding: 16vw;
+    }
+    .banner h1 {
+        text-align: left;
+        left: -50%;
+        top: 10%;
     }
 }
 
@@ -632,6 +618,8 @@ form {
     }
     .banner h1 {
         text-align: left;
+        left: -30%;
+        top: 10%;
     }
 }
 
@@ -641,6 +629,11 @@ form {
     }
     .icons {
         gap: initial;
+    }
+    .banner h1 {
+        text-align: left;
+        left: -30%;
+        top: 10%;
     }
 }
 
@@ -656,6 +649,11 @@ form {
     }
     .right p {
         line-height:2;
+    }
+    .banner h1 {
+        text-align: left;
+        left: -30%;
+        top: 10%;
     }
 
 }
@@ -703,8 +701,10 @@ form {
 
     .banner h1{
         font-weight: 400;
+        text-align: left;
+        left: -30%;
+        top: 10%;
     }
-
     .right h2 {
         margin: initial;
     }
@@ -790,6 +790,11 @@ form {
 
     .banner {
         padding: 8.93rem 0;
+    }
+    .banner h1 {
+        text-align: left;
+        left: -30%;
+        top: 10%;
     }
 
     .gallery a {
